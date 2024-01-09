@@ -1,3 +1,8 @@
+
+# binidxcorrected
+This is a version of the jsonl to binidx tool edited to have a vocabulary size of 65536. This tokenizer is use for the rocm training 
+
+
 # jsonl to binidx tool
 
 This repository is greatly simplified from https://github.com/EleutherAI/gpt-neox, to ONLY convert .jsonl into .bin and .idx , can serve for dataset preparation of RWKV model (see https://github.com/BlinkDL/RWKV-LM), 
@@ -25,5 +30,3 @@ out.write(ss + "\n")
 ```
 
 
-# binidxcorrected
-# binidxcorrected
